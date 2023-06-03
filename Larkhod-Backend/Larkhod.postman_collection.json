@@ -1,0 +1,508 @@
+{
+	"id": "56666be1-ccba-88aa-4f73-6255250c1e83",
+	"name": "Larkhod",
+	"description": "",
+	"order": [],
+	"folders_order": [
+		"de8e1dc7-ddda-dbf8-2ac0-6326e5953402",
+		"06204cd2-73ab-dfb2-ccce-89f89742bc7f",
+		"e8b0f2cf-4c23-7a8e-4d29-47c06e8482eb",
+		"71fc787d-2b7e-3690-f2c5-4f0da007292c"
+	],
+	"folders": [
+		{
+			"id": "de8e1dc7-ddda-dbf8-2ac0-6326e5953402",
+			"name": "auth",
+			"description": "",
+			"order": [
+				"2bcab4b7-f8a8-50e1-6f6a-2a11961415a8",
+				"39112d45-3e8c-9541-4ea9-4ef82340ac93"
+			],
+			"folders_order": [],
+			"owner": 0,
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83"
+		},
+		{
+			"id": "71fc787d-2b7e-3690-f2c5-4f0da007292c",
+			"name": "book",
+			"description": "",
+			"order": [
+				"e7f80623-4b15-3ee4-6c0f-2a76dec99a99",
+				"fd6201bc-b3fa-a613-c4a7-f99f8ead88d4",
+				"b11b85b9-3e9d-04c2-9f50-438f13e27f89",
+				"cfe59fdc-d014-48d9-4c04-bb241a0a65a3",
+				"1f0597d3-ccab-3c39-d385-915f907d4a7e"
+			],
+			"folders_order": [],
+			"owner": 0,
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83"
+		},
+		{
+			"id": "e8b0f2cf-4c23-7a8e-4d29-47c06e8482eb",
+			"name": "grade",
+			"description": "",
+			"order": [
+				"8fb6f893-cfe0-6b10-0b1b-ea8b6556e165",
+				"37fe5c22-a123-8c83-b978-c4adcee0b3f9",
+				"315b8102-1d87-392e-5605-e383374c7af2",
+				"0e68629a-9abd-c111-85f2-fe5396502d26",
+				"2cd27ce4-c212-96a9-966d-ad3b8b4bd07f"
+			],
+			"folders_order": [],
+			"owner": 0,
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83"
+		},
+		{
+			"id": "06204cd2-73ab-dfb2-ccce-89f89742bc7f",
+			"name": "user",
+			"description": "",
+			"order": [
+				"b6ad3e22-5447-77ef-7ae2-1c48459836bb",
+				"8d5a7b00-1a3b-ca4a-4a0e-15911c7a8848",
+				"8306c3c6-8d90-6a62-c15b-95d648aaae66",
+				"c51514f7-e599-f1e7-4ea1-5005be4fb178",
+				"0344dde2-3209-1d19-2e9a-0a1b6e582eeb"
+			],
+			"folders_order": [],
+			"owner": 0,
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83"
+		}
+	],
+	"owner": 0,
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "0344dde2-3209-1d19-2e9a-0a1b6e582eeb",
+			"name": "delete by id",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"method": "DELETE",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://127.0.0.1:8000/api/v1/user/mongodb-id",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"folder": "06204cd2-73ab-dfb2-ccce-89f89742bc7f"
+		},
+		{
+			"id": "0e68629a-9abd-c111-85f2-fe5396502d26",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjkyODBjNGNmYjFhMDk2MGUxNDJlNiIsImlhdCI6MTY4NDYxMzEzMiwiZXhwIjoxNjg0NjMxMTMyLCJ0eXBlIjoiYWNjZXNzIn0.3if2ZLvMk08niEwTYCKHnSJSP0YMshHlIX7xQudJlLI\n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjkyODBjNGNmYjFhMDk2MGUxNDJlNiIsImlhdCI6MTY4NDYxMzEzMiwiZXhwIjoxNjg0NjMxMTMyLCJ0eXBlIjoiYWNjZXNzIn0.3if2ZLvMk08niEwTYCKHnSJSP0YMshHlIX7xQudJlLI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/grade/64692de66e2b8d041923ee8c",
+			"folder": "e8b0f2cf-4c23-7a8e-4d29-47c06e8482eb",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684615885437,
+			"name": "get by id",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": []
+		},
+		{
+			"id": "1f0597d3-ccab-3c39-d385-915f907d4a7e",
+			"name": "delete by id",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"method": "DELETE",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://127.0.0.1:8000/api/v1/book/mongodb-id",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"folder": "71fc787d-2b7e-3690-f2c5-4f0da007292c"
+		},
+		{
+			"id": "2bcab4b7-f8a8-50e1-6f6a-2a11961415a8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/auth/register",
+			"folder": "de8e1dc7-ddda-dbf8-2ac0-6326e5953402",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684615946753,
+			"name": "register",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": [],
+			"rawModeData": "{\n    \"name\":\"Lima\",\n    \"email\":\"lima@gmail.com\",\n    \"image\":\"Lima profile image link\",\n     \"phone\":\"07000000012\",\n    \"password\":\"Lima0070\"\n}"
+		},
+		{
+			"id": "2cd27ce4-c212-96a9-966d-ad3b8b4bd07f",
+			"name": "delete by id",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"method": "DELETE",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://127.0.0.1:8000/api/v1/grade/mongodb-id",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"folder": "e8b0f2cf-4c23-7a8e-4d29-47c06e8482eb"
+		},
+		{
+			"id": "315b8102-1d87-392e-5605-e383374c7af2",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/v1/grade",
+			"folder": "e8b0f2cf-4c23-7a8e-4d29-47c06e8482eb",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684615930890,
+			"name": "get all",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": []
+		},
+		{
+			"id": "37fe5c22-a123-8c83-b978-c4adcee0b3f9",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/grade/64693236167a618562ecd64c",
+			"folder": "e8b0f2cf-4c23-7a8e-4d29-47c06e8482eb",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684615910868,
+			"name": "update",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": [],
+			"rawModeData": "{\n  \n   \"grade_path\":\"grade s4 path\"\n}"
+		},
+		{
+			"id": "39112d45-3e8c-9541-4ea9-4ef82340ac93",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/auth/login",
+			"folder": "de8e1dc7-ddda-dbf8-2ac0-6326e5953402",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684615926422,
+			"name": "login",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": [],
+			"rawModeData": "{\n    \"email\":\"lima@gmail.com\",\n    \"password\":\"Lima0070\"\n}"
+		},
+		{
+			"id": "8306c3c6-8d90-6a62-c15b-95d648aaae66",
+			"name": "get all",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://127.0.0.1:8000/api/v1/user",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"folder": "06204cd2-73ab-dfb2-ccce-89f89742bc7f"
+		},
+		{
+			"id": "8d5a7b00-1a3b-ca4a-4a0e-15911c7a8848",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/user/6469280c4cfb1a0960e142e6",
+			"folder": "06204cd2-73ab-dfb2-ccce-89f89742bc7f",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684615920762,
+			"name": "update",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": [],
+			"rawModeData": "{\n    \"name\":\"kandahar\",\n    \"email\":\"lima@gmail.com\",\n    \"phone\":\"07000000012\",\n    \"image\":\"Lima profile image link\"\n}"
+		},
+		{
+			"id": "8fb6f893-cfe0-6b10-0b1b-ea8b6556e165",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjkyODBjNGNmYjFhMDk2MGUxNDJlNiIsImlhdCI6MTY4NDYxMzE5MSwiZXhwIjoxNjg0NjMxMTkxLCJ0eXBlIjoiYWNjZXNzIn0.OA2p3A0tXIDm_ytxyBUxCluNTldsqlT0e8kD5QDfoL4\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjkyODBjNGNmYjFhMDk2MGUxNDJlNiIsImlhdCI6MTY4NDYxMzE5MSwiZXhwIjoxNjg0NjMxMTkxLCJ0eXBlIjoiYWNjZXNzIn0.OA2p3A0tXIDm_ytxyBUxCluNTldsqlT0e8kD5QDfoL4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/grade",
+			"folder": "e8b0f2cf-4c23-7a8e-4d29-47c06e8482eb",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684615915728,
+			"name": "create",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": [],
+			"rawModeData": "{\n   \"lable\":\"semeter seven\",\n   \"grade_path\":\"grade s3 path\"\n}"
+		},
+		{
+			"id": "b11b85b9-3e9d-04c2-9f50-438f13e27f89",
+			"name": "get all",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://127.0.0.1:8000/api/v1/book",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"folder": "71fc787d-2b7e-3690-f2c5-4f0da007292c"
+		},
+		{
+			"id": "b6ad3e22-5447-77ef-7ae2-1c48459836bb",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/v1/user",
+			"folder": "06204cd2-73ab-dfb2-ccce-89f89742bc7f",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684615942039,
+			"name": "create",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": [],
+			"rawModeData": "{\n    \"name\":\"Lima\",\n    \"email\":\"lima@gmail.com\",\n    \"phone\":\"07000000012\",\n    \"image\":\"Lima profile image link\",\n    \"password\":\"Lima007\"\n}"
+		},
+		{
+			"id": "c51514f7-e599-f1e7-4ea1-5005be4fb178",
+			"name": "get by id",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://127.0.0.1:8000/api/v1/user/mongodb-id",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"folder": "06204cd2-73ab-dfb2-ccce-89f89742bc7f"
+		},
+		{
+			"id": "cfe59fdc-d014-48d9-4c04-bb241a0a65a3",
+			"name": "get by id",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://127.0.0.1:8000/api/v1/book/mongodb-id",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"folder": "71fc787d-2b7e-3690-f2c5-4f0da007292c"
+		},
+		{
+			"id": "e7f80623-4b15-3ee4-6c0f-2a76dec99a99",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjkyODBjNGNmYjFhMDk2MGUxNDJlNiIsImlhdCI6MTY4NDYxNjU3NCwiZXhwIjoxNjg0NjM0NTc0LCJ0eXBlIjoiYWNjZXNzIn0.NSZ_RDYhfzP23rFFmDtyhdsGCZF-eiE1ddZX0-THWFw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjkyODBjNGNmYjFhMDk2MGUxNDJlNiIsImlhdCI6MTY4NDYxNjU3NCwiZXhwIjoxNjg0NjM0NTc0LCJ0eXBlIjoiYWNjZXNzIn0.NSZ_RDYhfzP23rFFmDtyhdsGCZF-eiE1ddZX0-THWFw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/book",
+			"folder": "71fc787d-2b7e-3690-f2c5-4f0da007292c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684616947882,
+			"name": "create",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": [],
+			"rawModeData": "{\n   \"label\":\"pashto\",\n   \"subject_path\":\"dari\",\n   \"download_pdf\":\"dari\",\n    \"parts\":[]\n}"
+		},
+		{
+			"id": "fd6201bc-b3fa-a613-c4a7-f99f8ead88d4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/book/6469365f718963529d240d4c",
+			"folder": "71fc787d-2b7e-3690-f2c5-4f0da007292c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1684616936552,
+			"name": "update",
+			"description": "",
+			"collectionId": "56666be1-ccba-88aa-4f73-6255250c1e83",
+			"responses": [],
+			"rawModeData": "{\n  \"label\":\"dari\",\n   \"subject_path\":\"dari\",\n   \"download_pdf\":\"dari\",\n    \"parts\":[]\n}"
+		}
+	]
+}
